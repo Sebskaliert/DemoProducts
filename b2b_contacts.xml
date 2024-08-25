@@ -1,0 +1,10 @@
+<odoo>
+    <record id="res_partner_regiepapst" model="res.partner">
+        <field name="name">Regiepapst GmbH</field>
+        <field name="street">Friedrichstraße 123</field>
+        <field name="city">Berlin</field>
+        <field name="country_id" ref="base.de"/>
+        <field name="email">info@regiepapst.de</field>
+        <field name="phone">+49 30 123456789</field>
+    </record>
+</odoo>
