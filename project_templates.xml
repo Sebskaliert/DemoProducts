@@ -1,0 +1,28 @@
+<odoo>
+    <record id="project_template_strategy_consulting" model="project.project">
+        <field name="name">Projekt: Strategie & Beratung</field>
+        <field name="tasks">
+            <task name="Kundenbriefing" sequence="1"/>
+            <task name="Strategieentwicklung" sequence="2"/>
+            <task name="Abschlusspräsentation" sequence="3"/>
+        </field>
+    </record>
+
+    <record id="project_template_marketing_campaigns" model="project.project">
+        <field name="name">Projekt: Marketing & Kampagnen</field>
+        <field name="tasks">
+            <task name="Planung der Kampagne" sequence="1"/>
+            <task name="Durchführung der Kampagne" sequence="2"/>
+            <task name="Analyse und Reporting" sequence="3"/>
+        </field>
+    </record>
+
+    <record id="project_template_branding" model="project.project">
+        <field name="name">Projekt: Branding</field>
+        <field name="tasks">
+            <task name="Markenidentität definieren" sequence="1"/>
+            <task name="Visuelle Gestaltung" sequence="2"/>
+            <task name="Markenpräsentation" sequence="3"/>
+        </field>
+    </record>
+</odoo>
