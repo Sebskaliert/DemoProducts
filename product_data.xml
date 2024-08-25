@@ -1,0 +1,28 @@
+<odoo>
+    <record id="service_strategy_consulting" model="product.product">
+        <field name="name">Strategie & Beratung</field>
+        <field name="default_code">SERVICE_STRATEGY</field>
+        <field name="type">service</field>
+        <field name="categ_id" ref="product.product_category_all"/>
+        <field name="lst_price">5000.00</field>
+        <field name="project_template_id" ref="project_template_strategy_consulting"/>
+    </record>
+
+    <record id="service_marketing_campaigns" model="product.product">
+        <field name="name">Marketing & Kampagnen</field>
+        <field name="default_code">SERVICE_MARKETING</field>
+        <field name="type">service</field>
+        <field name="categ_id" ref="product.product_category_all"/>
+        <field name="lst_price">7500.00</field>
+        <field name="project_template_id" ref="project_template_marketing_campaigns"/>
+    </record>
+
+    <record id="service_branding" model="product.product">
+        <field name="name">Branding</field>
+        <field name="default_code">SERVICE_BRANDING</field>
+        <field name="type">service</field>
+        <field name="categ_id" ref="product.product_category_all"/>
+        <field name="lst_price">4500.00</field>
+        <field name="project_template_id" ref="project_template_branding"/>
+    </record>
+</odoo>
